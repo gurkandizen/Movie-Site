@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Movie Site</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="navbar-wrapper">
+            <div class="logo-wrapper">
+                <h1 class="logo">LOGO</h1>
+            </div>
+
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Ana Sayfa</li>
+                    <li class="menu-list-item">Filmler</li>
+                    <li class="menu-list-item">Diziler</li>
+                    <li class="menu-list-item">Popüler</li>
+                </ul>
+            </div>
+
+            <div class="profile-container">
+                <img src="img/profile.jpg" alt="">
+                <div class="profil-text-container">
+                    <span>Hesabım</span>
+                    <i class="bi bi-chevron-compact-down"></i>
+                </div>
+
+                <div class="toggle">
+                    <i class="bi bi-moon-fill"></i>
+                    <i class="bi bi-brightness-high-fill"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SİDEBAR -->
+    <div class="sidebar">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-house-door-fill"></i>
+        <i class="bi bi-bookmarks-fill"></i>
+        <i class="bi bi-hourglass-top"></i>
+        <i class="bi bi-cart-fill"></i>
+        <i class="bi bi-gear-fill"></i>
+    </div>
+
+    <!-- CONTENT -->
+     <div class="container">
+        <div class="content-wrapper">
+            <div class="featured-content">
+                <img src="img/spiderman-title.png" alt="">
+                <p class="featured-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod pariatur commodi sunt soluta, natus tenetur, corrupti quidem numquam, quisquam ea doloremque officiis saepe deserunt dolorum? Vel eius rerum temporibus modi incidunt voluptates eos est atque? Ratione similique illo error, itaque, vitae ipsa omnis quod porro quae dolores ullam voluptatem rem.
+                </p>
+                <div class="featured-buttons">
+                    <button class="play-button">
+                        <i class="bi bi-play-circle"></i>
+                        Oynat
+                    </button>
+                    <button class="info-button">
+                        <i class="bi bi-info-circle"></i>
+                        Daha Fazla Bilgi
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-list-filter">
+            <select>
+                <option>Aksiyon</option>
+                <option>Animasyon</option>
+                <option>Belgesel</option>
+                <option>Komedi</option>
+                <option>Bilim Kurgu</option>
+            </select>
+        </div>
+
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Popüler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img src="img/f1.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span>SPIDER-MAN</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="movie-item">
+                        <img src="img/f2.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span>HULK</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="movie-item">
+                        <img src="img/f3.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span>GORA</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </div>
+    
+</body>
+</html>
